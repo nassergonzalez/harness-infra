@@ -31,7 +31,7 @@ resource "aws_s3_bucket_public_access_block" "riley-snyder-harness-io" {
 #   enable_optimization     = true
 #   enable_governance       = true
 #   # governance_policy_arn   = aws_iam_policy.delegate_aws_access.arn
-#   prefix = "riley-"
+#   prefix = "rileytest-"
 #   secrets = [
 #     "arn:aws:secretsmanager:us-west-2:759984737373:secret:sa/ca-key.pem-HYlaV4",
 #     "arn:aws:secretsmanager:us-west-2:759984737373:secret:sa/ca-cert.pem-kq8HQl"
