@@ -1,1 +1,1 @@
-type="t2.micro"
+type= "t2.nano"
